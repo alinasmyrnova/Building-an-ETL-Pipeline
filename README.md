@@ -6,8 +6,9 @@ The goal of the project was to automate the process of extracting, transforming,
 
 ### What the project does:
 
-- **Extracts** data from two raw files:
+- **Extracts** data from three raw files:
   - A CSV file with electricity sales data
+  - A Parquet file 
   - A nested JSON file with electricity capability data
 - **Transforms** the sales data:
   - Removes missing values
